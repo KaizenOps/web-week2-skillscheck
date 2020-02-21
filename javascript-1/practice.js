@@ -156,8 +156,7 @@ let total = myNumbers.reduce((acc, element)=>{
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
-let myNumbersIndex = [];
-for
+
 
 //////////////////PROBLEM 18////////////////////
 
@@ -188,9 +187,9 @@ for(friend in people){
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
-const totallyAwesome = people.awesomeLevel.reduce(acc, curr){
- 	acc += curr
- }
+// const totallyAwesome = people.awesomeLevel.reduce(acc, curr){
+//  	acc += curr
+//  }
 
 
 // const productOfArray = () => numbers.reduce((acc, curr)=>acc*=curr)
